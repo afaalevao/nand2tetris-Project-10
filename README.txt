@@ -9,8 +9,8 @@ This project was modeled on the JackAnalyzer module described in
 section 10.3.1 of the textbook.  Our project was created using 
 python3.  
 
-To run our code, simply enter the name of the python program 
-(JackAnalyzer.py) followed by the path to the .jack test file.
+To run our code, simply enter the name of the python
+program followed by the path to the .jack input file on the command line.
 After execution, the xml output files will be saved to a directory
 named "xml" within the same directory as the .jack file.
 
