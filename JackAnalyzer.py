@@ -474,8 +474,8 @@ class Parser:
 
 
 def main():
-    if sys.argv[0] is None or sys.argv[1] is None:
-        print("ERROR: No arguments entered")
+    if sys.argv[0] is None or sys.argv[1] is None or len(sys.argv) > 2:
+        print("ERROR: Invalid input")
         print("USAGE: JackAnalyzer.py <.jack file path>")
         sys.exit(1)
 
